@@ -1,0 +1,54 @@
+html, body {
+  background-color: #232020;
+  min-width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+  color: #ff7315;
+  text-align: center;
+  font-size: 3em;
+  padding: 3%;
+}
+
+#instructions {
+  color: white;
+}
+
+#formulaire{
+    background-color: white;
+    width: 650px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flexRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.plus {
+  background-color: #f67280;
+}
+
+.moins {
+  background-color: #ffa372;
+}
+
+.fini {
+  background-color : #0c9463;
+}
