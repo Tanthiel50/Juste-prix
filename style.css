@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: "Casio";
+  src: url("./fonts/casio-fx-702p.ttf");
+  }
+
 html, body {
   background-color: white;
   min-width: 500px;
@@ -7,8 +12,9 @@ html, body {
 header {
   color: #2193b0; 
   text-align: center;
-  font-size: 6em;
-  font-weight: 600;
+  font-size: 5em;
+  font-weight: 400;
+  font-family: "Casio";
 }
 
 .container{
@@ -31,13 +37,13 @@ header {
 }
 
 .plus {
-  background-color: #f67280;
+  background-color: #EB7309;
 }
 
 .moins {
-  background-color: #ffa372;
+  background-color: #9E4A00;
 }
 
 .fini {
-  background-color : #0c9463;
+  background-color : #09C1EB;
 }
