@@ -1,40 +1,29 @@
+
 html, body {
-  background-color: #232020;
+  background-color: white;
   min-width: 500px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+header {
+  color: #2193b0; 
+  text-align: center;
+  font-size: 6em;
+  font-weight: 600;
 }
 
-header {
-  color: #ff7315;
-  text-align: center;
-  font-size: 3em;
-  padding: 3%;
+.container{
+  background-color: white;
 }
 
 #instructions {
   color: white;
 }
 
-#formulaire{
-    background-color: white;
-    width: 650px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#box{
+  background: #2193b0; 
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-#flexRow{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 .instruction {
   padding: 15px;
